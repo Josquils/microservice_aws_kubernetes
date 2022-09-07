@@ -40,5 +40,5 @@ jobs:
                 name: run lint
                 command: |
                     . venv/bin/activate
-                    hadolint --ignore DL3013
+                    # hadolint --ignore DL3013
                     make lint 
